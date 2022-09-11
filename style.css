@@ -1,0 +1,95 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-link {
+    font-size: large;
+    color: rgb(240, 235, 235);
+    text-shadow: 1px;
+    text-shadow: 2px 2px 5px rgb(97, 83, 254);
+}
+
+.navbar {
+    background-color: #b8b8f4;
+}
+
+.nav-item {
+    position: relative;
+    padding: 10px;
+}
+
+#carouselExampleControls {
+    align-items: center;
+    padding-left: 50px;
+    margin-top: 150px;
+    margin-bottom: 5px;
+}
+
+.card-body {
+    background-color: #b8b8f4;
+    color: black;
+}
+
+h1 {
+    color: whitesmoke;
+    text-shadow: 1px;
+    text-shadow: 2px 2px 5px rgb(65, 71, 237);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card-img-top {
+    width: 18rem;
+    height: 200px;
+    border: #8686e5;
+}
+
+.btn {
+    padding: 5px 10px;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: rgb(239, 239, 239);
+    background-color: #0d0d0d;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px rgb(168, 207, 240);
+}
+
+.btn:hover {
+    background-color: #b8b8f4;
+}
+
+#cox {
+    margin-top: 10px;
+}
+
+.city-container {
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.card-img-top {
+    background-position: center;
+    background-size: cover;
+    bottom: 0;
+    transition: 0.5s;
+
+}
+
+.a:hover.card-img-top {
+    transform: scale(1.1);
+
+}
+
+#slide-section {
+    width: 900px;
+    height: 100px;
+}
+
+hr {
+    border: 2px solid #0c0c0c;
+}
