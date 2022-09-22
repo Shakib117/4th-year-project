@@ -12,7 +12,7 @@
     
     <!-- <link rel="stylesheet" href="asset/style.css"> -->
     
-    <link rel="stylesheet" href="food.css">
+    <link rel="stylesheet" href="asset/food.css">
 </head>
 
 <body>

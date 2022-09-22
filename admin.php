@@ -6,7 +6,7 @@ Session:: init();
 
 
 ?>
- <?php include 'lib/database.php';?>
+ <?php include 'class/database.php';?>
  <?php $db=new Database ;?>
 
 <head>

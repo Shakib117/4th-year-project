@@ -65,7 +65,7 @@
 				</div>    
 
                 <div class="d-flex justify-content-center pt-1 pb-1">
-                    <a href="" class="text-decoration-none"> Forgotten Password?</a>
+                    <a href="forget.php" class="text-decoration-none"> Forgot your Password?</a>
                 </div>
 
                 <hr/>   
@@ -73,6 +73,7 @@
                 <div class="d-flex justify-content-center">
                     <button class="rounded btn btn-success mt-2"><a href="registration.php" class="text-decoration-none text-white">Create a New Account</a></button>
                 </div>
+                
 
                 </div>
             </form>
