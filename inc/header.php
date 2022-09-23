@@ -26,7 +26,7 @@
             <div class="navigation-items">
                 <ul class="navbar-nav list-unstyled">
                     <li class="nav-item mt-2">
-                        <a href="#package">Package</a>
+                        <a href="index.html">Home</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #fff;">
@@ -39,7 +39,7 @@
                         </ul>
                     </li>
                     <li class="nav-item mt-2">
-                        <a href="#spot">Spot</a>
+                        <a href="#package">Package</a>
                     </li>
                     <li class="nav-item mt-2">
                         <a href="#gallery">Gallery</a>

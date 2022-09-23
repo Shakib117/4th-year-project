@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php include"inc/header.php"?>
 <html lang="en">
 
 <head>
@@ -10,28 +11,17 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     
-    <!-- <link rel="stylesheet" href="asset/style.css"> -->
-    
     <link rel="stylesheet" href="asset/food.css">
+    <link rel="stylesheet" href="asset/style.css">
+    <style>
+      header{
+        background: rgb(41, 38, 38);
+      }
+    </style>
 </head>
 
 <body>
-    <header class="container">
-        <nav class="navbar navbar-expand-lg fixed-top bg-drak">
-            <div class="container-fluid">
 
-                <a class="navbar-brand" href="#"> <img src="img/f-logo.png" alt=""
-                        style="height:100px ; width:auto;"></a>
-                <h1 class="top-header"><i>FOOD BAZAR</i></h1>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-            </div>
-        </nav>
-    </header>
     <main>
 
         <div clss="top-container">
@@ -47,12 +37,11 @@
 
                 </div>
             </div>
-            <div class="top-location">
-                <div class="big-img rounded"
-                    style="background:url(img/food-b.png);background-position: center; background-size: cover;height:400px; ">
-                    <div class="box-left"></div>
+            <section class="d-flex justify-content-center">
+                <div class="burger-img">
+                    <img src="img/burger.png" alt="">
                 </div>
-            </div>
+            </section>
 
         </div>
 
@@ -188,13 +177,7 @@
 
 
     </main>
-    <!-- subscribe start  -->
-    <section style="height : 400px;" id="subscrib"
-        class="container  rounded-3 d-flex justify-content-center align-items-center ">
-
-
-    </section>
-    <!-- subscribe end  -->
+   
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
