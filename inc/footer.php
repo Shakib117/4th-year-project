@@ -4,7 +4,7 @@
                 <div class="box">
 
                     <h3>About us</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <p>This is a travel website.</p>
 
                 </div>
             </div>
@@ -40,17 +40,14 @@
                 <div class="box">
 
                     <h3>Follow Us</h3>
-                    <a href="#facebook">facebook</a>
-                    <a href="#instagram">instagram</a>
-                    <a href="#twitter">twitter</a>
-
-
+                    <a href="https://www.facebook.com/profile.php?id=100086239446015">facebook</a>
+                    <a href="https://www.instagram.com/adventure_bd1/">instagram</a>
                 </div>
             </div>
         </div>
 
-        <h1 class="credit">copyright@2022, Created by <span> adventure bd</span> | all rights reserved!</h1>
-        <h2 class="credits">Developed by sakib,omi,ayesha.</h2>
+        <h1 class="credit">copyright@2022, Created by <span> Adventure BD</span> | all rights reserved!</h1>
+        <h2 class="credits">Developed by Anisa, Ruhina, Shakib.</h2>
         <h3 class="credits">This site is maintained by turist department</h3>
 
 

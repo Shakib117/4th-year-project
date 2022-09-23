@@ -29,7 +29,7 @@
                         <a href="#package">Package</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #fff;">
                             Services
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -48,7 +48,7 @@
                         <a href="#review">Review</a>
                     </li>
                     <li class="nav-item mt-2">
-                        <a href="#contact">Contact</a>    
+                        <a href="contact.html">Contact</a>    
                     </li>
                 </ul>                
             </div>
