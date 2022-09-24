@@ -1,4 +1,5 @@
 <!doctype html>
+<?php include'lib/session.php';?>
 <html lang="en">
 
 <head>
@@ -26,7 +27,7 @@
             <div class="navigation-items">
                 <ul class="navbar-nav list-unstyled">
                     <li class="nav-item mt-2">
-                        <a href="index.html">Home</a>
+                        <a href="index.php">Home</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #fff;">
@@ -48,18 +49,30 @@
                         <a href="#review">Review</a>
                     </li>
                     <li class="nav-item mt-2">
-                        <a href="contact.html">Contact</a>    
+                        <a href="contact.php">Contact</a>    
                     </li>
                 </ul>                
             </div>
         </div>
         <div class="d-flex">
-            <button type="button" class="btn btn-outline-light mx-auto mx-lg-1" name="login"> 
+            <button type="button" class="btn btn-outline-light mx-auto mx-lg-1"> 
                 <a href="login.php" class="text-decoration-none" style="color:inherit">Login</a>
             </button>
-            <button type="button" class="btn btn-outline-light mx-auto mx-lg-1" name="registration"> 
+            <?php
+                if(Session::get("login")==true){
+                    echo '<button type="button" class="btn btn-outline-light mx-auto mx-lg-1"> 
+                        <a href="registration.php" class="text-decoration-none" style="color:inherit">Signup</a>
+                        </button>';
+                } else{
+                    echo '<button type="button" class="btn btn-outline-light mx-auto mx-lg-1"> 
+                        <a href="registration.php" class="text-decoration-none" style="color:inherit">Sign out</a>
+                        </button>';
+                }
+                
+            ?>
+            <!-- <button type="button" class="btn btn-outline-light mx-auto mx-lg-1"> 
                 <a href="registration.php" class="text-decoration-none" style="color:inherit">Signup</a>
-            </button>
+            </button> -->
         </div>
 
 

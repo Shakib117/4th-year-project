@@ -31,15 +31,16 @@
 				$create = $db->insert($query);
 			}
 		}
+
+        if(isset($error)){
+            echo "<span style='color:red'>".$error."</span>";
+        } else{
+           header("location:login.php");
+       }
 	
 	}
 	?>
-	<?php 
-    if(isset($error)){
-     echo "<span style='color:red'>".$error."</span>";
-    }
-    ?>
-
+	
 	<?php 
     if(isset($_GET['msg'])){
      echo "<span style='color:green'>".$_GET['msg']."</span>";

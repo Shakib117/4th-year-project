@@ -33,7 +33,10 @@
             <?php 
                 if($_SERVER['REQUEST_METHOD'] =='POST'){
                 $username= mysqli_real_escape_string($db->link, $_POST['username']);
-                $password= mysqli_real_escape_string( $db->link,$_POST['password']);
+                $password= mysqli_real_escape_string($db->link,$_POST['password']);
+
+                echo "$username";
+                echo "$password";
 
                 $query= "SELECT * FROM  registration WHERE username='$username' AND password= '$password' ";
                 $result= $db->select($query);
